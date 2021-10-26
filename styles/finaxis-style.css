@@ -1,0 +1,2465 @@
+.finaxis-header-body {
+    display: flex;
+    justify-content: space-between;
+	    align-items: flex-end;
+	    margin-top: 70px;
+}
+.finaxis-header-lft{
+    width: 50%;
+}
+.finaxis-header-lft h2{
+	font-family: AvantGarde;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 88px;
+    line-height: 105px;
+	color:#fff;
+	margin-bottom:8px;
+}
+.finaxis-header-lft p {
+	font-family: AvantGarde-regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 46px;
+    line-height: 55px;
+    color: #FFFFFF;
+	margin-bottom:44px;
+}
+.finaxis-header-lft p span{
+    color: #FFBE2E;
+}
+.finexplore-btn{
+    width: 223px;
+    height: 63px;
+    background: #E70808;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.finexplore-btn:hover{
+	color: #FFFFFF;
+}
+.finaxis-header-right {
+    width: 50%;
+    text-align: right;
+}
+.finaxis-header-innerbody {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+   /*  background: url(../images/mission-bg.png) no-repeat;
+	background-position:center; */
+    max-width: 1565px;
+    margin: auto;
+	position: relative;
+}
+
+
+.finaxis-header-next{
+	margin-top: -265px;
+	    position: relative;
+}
+.finaxis-top-img {
+    position: absolute;
+    top: 12%;
+}
+.finaxis-header-innerbody-block1{
+	position: absolute;
+    top: 22%;
+    max-width: 710px;
+}
+
+.finaxis-header-innerbody-block1 h3 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #FFE999;
+	text-align:center;
+}
+.finaxis-header-innerbody-block1 h4{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 110px;
+    text-align: center;
+    color: #fff;
+	margin-bottom:16px;
+	font-family: AvantGarde;
+}
+.finaxis-header-innerbody-block1 p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #fff;
+}
+.finaxis-header-innerbody-bttm{
+	    position: absolute;
+    bottom: 37%;
+	    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
+.finaxis-top-right-img {
+    position: absolute;
+    top: 14%;
+    right: 0;
+}
+
+.finaxis-ourapproch-sect {
+    margin-top: -400px;
+}
+.finaxis-ourapproch-lft h3{
+    font-family: AvantGarde;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 86px;
+    color: #fff;
+    margin-bottom: 54px;
+}
+.finaxis-ourapproch-lft ul{
+    max-width: 590px;
+}
+.finaxis-ourapproch-lft ul li{
+	margin-bottom:74px;
+}
+.finaxis-ourapproch-lft ul li h4{
+    font-family: AvantGarde;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+    color: #fff;
+    margin-bottom: 28px;
+	position:relative;
+}
+.finaxis-ourapproch-lft ul li h4:after{
+	content:"";
+	position:absolute;
+	width:113px;
+	border:2px solid #FF4545;
+	left: 0;
+    bottom: -12px;
+}
+.finaxis-ourapproch-lft ul li p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 33px;
+    color: #fff;
+}
+
+.finaxis-technology-sect {
+        margin-top: 160px;
+    padding-bottom: 184px;
+	position:relative;
+}
+
+
+.finaxis-technology-sect h2 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFE999;
+    margin-bottom: 40px;
+}
+/*Technology Tab*/
+.finaxis-tab-sect {
+    display: flex;
+    justify-content: center;
+	margin-bottom:140px;
+}
+.finaxis-tab-sect ul{
+    display: flex;
+    justify-content: center;
+	align-items:center;
+}
+.finaxistablinks {
+    width: 407px;
+    height: 105px;
+    border: 2px solid #fff;
+    /* border-color: rgba(255,255,255,0.4); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: AvantGarde-regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.4;
+	margin:0px 12px;
+	cursor:pointer;
+}
+.finaxistablinks.tab-active {
+    border-image-slice: 1;
+    border-width: 2px;
+    border-image-source: linear-gradient(to left, #AC3FC8, #FF0101 80%);
+	opacity:1;
+}
+.finaxistabcontent {
+  display: none;
+}
+.finaxistabcontent-d-block{
+	display:block;
+}
+.finaxis-tabcontent-lft h3{
+	    font-family: AvantGarde;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 120px;
+    line-height: 143px;
+    color: #fff;
+    max-width: 718px;
+}
+.finaxis-tabcontent-right ul{
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+	justify-content: space-between;
+}
+.finaxis-tabcontent-right ul li {
+    width: 20%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+	margin-bottom: 19px;
+}
+.finaxis-tech-imgblock {
+    height: 118px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.finaxis-tabcontent-right ul li span a{
+    font-family: AvantGarde;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 5px;
+	text-decoration:none;
+}
+.tech-lft-img {
+    position: absolute;
+    top: -162px;
+    left: 33px;
+}
+.finaxis-product-sect {
+    padding: 200px 0px;
+    background: #fff;
+    position: relative;
+}
+.finaxis-product-left-inner{
+	    max-width: 590px;
+}
+.finaxis-product-left-inner h2{
+    font-family: AvantGarde;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #FF3C3C;
+    margin-bottom: 25px;
+}
+.finaxis-product-left-inner h3 {
+    font-family: AvantGarde;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+    color: #000000;
+    margin: 17px 0px;
+}
+.finaxis-product-left-inner p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 33px;
+    color: #272528;
+	margin-bottom:40px;
+}
+.finaxis-product-block ul{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+.finaxis-product-block ul li{
+	display:flex;
+	width:48%;
+	background: #FFFFFF;
+    border: 1px solid #D5E2EF;
+    box-sizing: border-box;
+    border-radius: 11px;
+	min-height: 124px;
+	margin-bottom: 24px;
+}
+.finaxis-product-list-block {
+    display: flex;
+    padding: 28px 24px 28px 32px;
+}
+.finaxis-product-list-lft {
+        width: 40px;
+    height: 40px;
+    background: #C9D4DC;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+.finaxis-product-list-right {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #1A1A1A;
+	width:80%;
+}
+.finaxis-product-block {
+    max-width: 613px;
+}
+.finaxis-bottm-lft-img {
+    position: absolute;
+    bottom: 48px;
+    left: 60px;
+}
+
+.finaxis-purple-bg{
+	    background: #1A0733;
+}
+
+.finaxis-product-left-inner h2 span{
+    color: #FFE999;
+}
+.finaxis-product-No2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.finaxis-product-No2 h3{
+	color: #EFEFEF;
+}
+.finaxis-product-No2 p{
+	color: #EFEFEF;
+}
+
+.finaxis-productNo2-block ul li{
+	background: #2A1249;
+    border: 1px solid #502587;
+    box-sizing: border-box;
+    border-radius: 11px;
+}
+.finaxis-productNo2-block .finaxis-product-list-lft{
+	background: #765D97;
+}
+.finaxis-productNo2-block .finaxis-product-list-right{
+	    color: #C2AAE1;
+}
+.mb-16{
+	margin-bottom:16px!important;
+}
+.mb-12{
+	margin-bottom:12px!important;
+}
+.finaxis-testProg-sect {
+    background: linear-gradient(
+180deg
+, #070332 0%, #050038 100%);
+}
+.finaxis-testProg-lft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+	max-width: 688px;
+}
+
+.finaxis-testProg-lft h2{
+    font-family: AvantGarde;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 86px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.finaxis-testProg-lft p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+	margin-bottom:36px;
+}
+.finaxis-form-inputgroup {
+    display: flex;
+	height: 88px;
+}
+.finaxis-form-inputgroup input{
+	
+	max-width: 478px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    outline: none;
+    text-indent: 38px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 31px;
+    color: #272528;
+	    border: none;
+}
+.finaxis-form-inputgroup input:placeholder{
+	color: #9C9C9C;
+}
+
+.finaxis-submit-bttn{
+    border: none;
+    box-shadow: none;
+    outline: none;
+    background: #E70808;
+    max-width: 204px;
+    width: 100%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.finaxis-testProg-form {
+    max-width: 682px;
+}
+.finaxis-cmpnyLogo-block {
+    padding: 78px 0px;
+}
+.finaxis-cmpnyLogo-block ul{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.finaxis-cmpnyLogo-block ul li{
+	margin:0px 20px;
+}
+.finaxis-valuedPartner-sect {
+    background: linear-gradient(
+180deg
+, #070332 0%, #050038 100%);
+    padding-bottom: 260px;
+}
+.finaxis-valuedPartner-block {
+    text-align: center;
+}
+.finaxis-valuedPartner-block .finaxis-testProg-form{
+	margin:auto;
+}
+.finaxis-valuedPartner-block h2{
+    font-family: AvantGarde;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 140px;
+    line-height: 110px;
+    text-align: center;
+    text-transform: uppercase;
+    opacity: 0.7;
+	margin-bottom:100px;
+	color:#fff;
+	    background: -webkit-linear-gradient(#fff -35%, #050038 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.finaxis-valuedPartner-block p{
+    font-family: AvantGarde;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 57px;
+    text-align: center;
+    color: #FFFFFF;
+	max-width:983px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:36px;
+}
+/*end home page*/
+/*contactus*/
+.finaxis-contact-sect {
+    margin-top: 107px;
+	padding-bottom:92px;
+	position:relative;
+}
+.finaxis-contact-add {
+    margin-top: 60px;
+	border-left: 1px solid #66707B;
+    padding: 24px 20px 42px;
+}
+.finaxis-contact-add h3 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.finaxis-contact-add p{
+	    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #8E80A6;
+}
+.finaxis-form-block {
+    margin-top: 32px;
+}
+.finaxis-contact-block-lft {
+    position: relative;
+    z-index: 1;
+}
+.finaxis-contact-block-right {
+    max-width: 744px;
+    /* float: right; */
+    margin-left: 7%;
+	    position: relative;
+    z-index: 1;
+}
+.finaxis-contact-block-right h3{
+	font-family: AvantGarde;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+    color: #fff;
+	margin-bottom:28px;
+	position:relative;
+}
+.finaxis-contact-block-right h3:after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    width: 113px;
+    border-bottom: 2px solid #FF4545;
+    left: 0;
+}
+.finaxis-contact-block-right p{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 33px;
+	color:#fff;
+}
+.finaxis-input-label {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #A5A2C1;
+    margin-bottom: 16px;
+}
+.finaxis-form-input input{
+    background: #27234E;
+    border: none;
+    outline: none;
+    max-width: 361px;
+    width: 100%;
+    height: 74px;
+    text-indent: 26px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.finaxis-form-input {
+    margin-bottom: 24px;
+}
+.finaxis-input-label span{
+	    color: #E72929;
+}
+.finaxis-contact-droplist {
+    background: #27234E;
+    border: none;
+    outline: none;
+    max-width: 361px;
+    width: 100%;
+    height: 74px;
+    text-indent: 26px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+	    position: relative;
+}
+.finaxis-contact-droplist:hover,.finaxis-contact-droplist:focus{
+	color: #FFFFFF;
+}
+.contact-drop-box .finaxis-contact-droplist:after {
+    content: "\f0d7";
+    font-family: fontawesome;
+    position: absolute;
+    border: 0;
+    color: #595485;
+    right: 26px;
+    bottom: 0;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.finaxiscontact-dropdown-content{
+	display:none;
+}
+.finaxiscontact-dropdown-content.show{
+	display:block;
+}
+.contact-inner{
+	font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.finaxiscontact-dropdown-content {
+    background: #27234E;
+    margin-top: 2px;
+	    position: relative;
+    z-index: 9;
+}
+.contact-drop-scrollable{
+    position: absolute;
+    background: #27234E;
+    width: 100%;
+}
+.finaxiscontact-dropdown-content ul li {
+    padding: 10px 26px;
+}
+.finaxis-form-input textarea {
+    resize: none;
+    height: 152px;
+	font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+	background: #27234E;
+	    border: none;
+    width: 100%;
+    padding: 22px 26px;
+	outline:none;
+}
+/*checkbox*/
+.finaxis-coontactcheckbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    /* height: 0; */
+    /* width: 0; */
+}
+.finaxis-coontactcheckbox-container {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 24px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+        font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #A5A2C1;
+	max-width: 645px;
+}
+
+.finaxis-contactcheckmark {
+        position: absolute;
+    top: 1px;
+    left: 0;
+    height: 18px;
+    width: 18px;
+    background: #615F7C;
+    border: 1px solid #615F7C;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+/* When the checkbox is checked, add a blue background */
+.finaxis-coontactcheckbox-container input:checked ~ .finaxis-contactcheckmark {
+      background: #615F7C;
+    border: 1px solid #615F7C;
+}
+
+/* Create the finaxis-contactcheckmark/indicator (hidden when not checked) */
+.finaxis-contactcheckmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the finaxis-contactcheckmark when checked */
+.finaxis-coontactcheckbox-container input:checked ~ .finaxis-contactcheckmark:after {
+  display: block;
+}
+
+/* Style the finaxis-contactcheckmark/indicator */
+.finaxis-coontactcheckbox-container .finaxis-contactcheckmark:after {
+  left: 6px;
+    top: 1px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(
+45deg
+);
+    -ms-transform: rotate(45deg);
+    transform: rotate(
+45deg
+);
+}
+.finaxis-contact-btn{
+	margin-top:24px;
+}
+.finaxis-contact-btm-bg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+/*end contactus*/
+/*career*/
+.finaxis-career-sect {
+    margin-top: 90px;
+	position:relative;
+}
+.finaxis-career-head {
+    text-align: center;
+    max-width: 1120px;
+    margin: auto;
+	margin-bottom:60px;
+	    z-index: 1;
+    position: relative;
+}
+.finaxis-career-head h2{
+	font-family: AvantGarde;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 86px;
+    text-align: center;
+    margin-bottom: 40px;
+	color:#fff;
+}
+.finaxis-career-head p{
+	    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+	color:#fff;
+}
+.finaxis-career-gallry {
+    display: flex;
+	margin-bottom:80px;
+	position: relative;
+    z-index: 1;
+}
+.finaxis-career-popular-job {
+    position: relative;
+    z-index: 1;
+}
+.finaxis-career-gal-block {
+    display: flex;
+}
+.finaxis-career-gal-single {   
+    display: flex;
+}
+.finaxis-career-gal-double {
+    display: flex;
+    flex-direction: column;
+	margin-left:24px;
+}
+.ml-24{
+	margin-left:24px;
+}
+.mb-24{
+	margin-bottom:24px;
+}
+.finaxis-career-popular-job-block h3 {
+    font-family: AvantGarde;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+    margin-bottom: 80px;
+    color: #fff;
+    text-align: center;
+	position:relative;
+}
+.finaxis-career-popular-job-block h3:after{
+	content:"";
+	position:absolute;
+	bottom:-2px;
+	border-bottom: 2px solid #FF4545;
+	width:113px;
+	left:0;
+	right:0;
+	margin:auto;
+
+}
+.finaxis-career-popular-job-block {
+    max-width: 1080px;
+    margin: auto;
+}
+.finaxis-item-head{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 36px;
+	/* identical to box height */
+	color: #FFFFFF;
+	position:relative;
+	display: flex;
+    justify-content: space-between;
+    color: #fff;
+	background:transparent;
+    border-radius: 4px;
+    padding: 42px 40px;
+    cursor: pointer;
+	background: #17124C;
+	border-radius: 4px 4px 0px 0px;
+
+}
+.finaxis-item-head.collapsed{
+	    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    background: #27234E;
+    border-radius: 4px;
+    padding: 40px 42px;
+    cursor: pointer;
+	border-bottom: 0px;
+}
+.finaxis-item-head:after{
+	content: "\f107";
+    font-family: fontawesome;
+    position: absolute;
+    top: 0;
+    right: 40px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 19px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    height: 100%;
+	transform:rotate(180deg);
+}
+.finaxis-item-head.collapsed:after{
+	content: "\f107";
+    font-family: fontawesome;
+    position: absolute;
+    top: 0;
+    right: 40px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 19px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    height: 100%;
+	transform:rotate(0deg);
+}
+
+.fin-blue-clr{
+	font-weight:400;
+	color: #34A0EE;
+	margin-right: 42px;
+}
+.accordion-item {
+    margin-bottom: 32px;
+}
+.finaxis-collapse-block{
+	    padding: 0px 40px;
+		background: #17124C;
+	border-radius: 0px 0px 4px 4px;
+}
+.finaxis-collapse-body {
+    border-top: 1px solid #3F77B9;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.finaxis-collapse-body ul li{
+	display:flex;
+	justify-content:space-between;
+	font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    /* text-align: right; */
+    color: #FFFFFF;
+	margin-bottom:32px;
+}
+.finaxis-collapse-body ul li .finaxis-collapse-lft{
+	margin-right:30px;
+}
+.finaxis-career-joinUs {
+    margin-top: 100px;
+	padding-bottom: 100px;
+	position: relative;
+    z-index: 1;
+		
+}
+.finaxis-career-joinUs h2 {
+    font-family: AvantGarde;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 86px;
+    margin-bottom: 60px;
+    color: #fff;
+}
+.finaxis-joinUs-block h3{
+    font-family: AvantGarde;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+    position: relative;
+    margin-bottom: 28px;
+    color: #fff;
+}
+.finaxis-joinUs-block h3:after{
+	content:"";
+	position:absolute;
+	bottom:-12px;
+	border-bottom: 2px solid #FF4545;
+	width:113px;
+	left:0;
+
+
+}
+.finaxis-joinUs-block p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 33px;
+    color: #fff;
+}
+.finaxis-joinUs-block {
+    margin-bottom: 48px;
+}
+.finaxis-collapse-right {
+    display: flex;
+    width: 20%;
+    text-align: right;
+    justify-content: flex-end;
+}
+.finaxis-career-btm-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+	background: rgba(255, 39, 246, 0.1);
+    opacity: 0.7;
+    filter: blur(302px);
+	background-size: 100%;
+}
+/*end*/
+/*career 3*/
+.finaxis-career-hd2{
+	margin-bottom:54px;
+}
+.finaxis-career-hd2 h2{
+    font-family: AvantGarde;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 86px;
+    color: #fff;
+    margin-bottom:24px;
+}
+.finaxis-career-hd2 p{
+    font-family: AvantGarde;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 57px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+.finaxis-career-hd-txt{
+	margin-bottom:36px;
+}
+.finaxis-career-hd-txt h3{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: #fff;
+    margin-bottom: 36px;
+}
+.finaxis-career-hd-txt p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: #fff;
+	margin-bottom:32px;
+}
+.finaxis-career-mid-content h3{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #fff;
+    margin-bottom: 22px;
+}
+.finaxis-career-mid-content ul li{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+	margin-bottom:20px;
+	position:relative;
+	padding-left: 25px;
+}
+.finaxis-career-mid-content ul li:last-child{
+	margin-bottom:0;
+}
+.finaxis-career-mid-content ul li:before{
+	content:"";
+	position: absolute;
+	width: 8px;
+	height: 8px;
+	left: 0;
+	top: 9px;
+	background: #C4C4C4;
+}
+.finaxis-career-mid-content ul{
+	margin-bottom:60px;
+}
+
+.finaxis-caree-apply-btn {
+    width: auto;
+    height: 63px;
+    background: #E70808;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    text-decoration: none;
+    outline: none;
+    padding: 10px 48px;
+}
+.finaxis-caree-apply-btn:hover{
+	color: #FFFFFF;
+}
+.finaxis-career2-block{
+	padding-bottom:120px;
+	z-index: 1;
+    position: relative;
+}
+/*career 4*/
+.finaxis-career-hd3{
+	margin-bottom:40px;
+}
+.finaxis-career-hd3 h2{
+    font-family: AvantGarde;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 62px;
+    color: #fff;
+    margin-bottom:24px;
+}
+.finaxis-career-hd3 p{
+    font-family: AvantGarde;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+.finaxis-career2-form-block {
+    background: rgba(35, 30, 74, 0.6);
+    border-radius: 8px;
+	    padding: 90px 90px 78px;
+}
+.finaxis-career2-form-block h3{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+	margin-bottom:40px;
+}
+.finaxis-career2-innerform-block{
+	max-width:908px;
+	width:100%;
+	margin: auto;
+}
+.finaxis-career-form-input {
+    display: flex;
+    align-items: center;
+	margin-bottom:44px;
+}
+.finaxis-career-input-field{
+	position:relative;
+	width: 70%;
+}
+.finaxis-career-input-field .uploadbtn {
+        outline: none;
+    border: none;
+    background: #3F3A71;
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    width: auto;
+    height: 74px;
+    text-transform: uppercase;
+    outline: none;
+    padding: 0px 32px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+}
+.finaxis-career-input-field .uploadbtn span{
+	margin-right:10px;
+}
+.finaxis-career-input-field input[type=file] {
+        padding: 0;
+    font-size: 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.finaxis-career-input-label {
+    width: 30%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    color: #A5A2C1;
+}
+.finaxis-career-input-label span{
+	color: #E72929;
+}
+.finaxis-career-input-field input{
+    background: #27234E;
+    border: none;
+    outline: none;
+    max-width: 620px;
+    width: 100%;
+    height: 74px;
+    text-indent: 26px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.finaxis-career-form-input textarea {
+    resize: none;
+    height: 188px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    background: #27234E;
+    border: none;
+    width: 100%;
+    padding: 22px 26px;
+    outline: none;
+}
+.finaxis-career-input-field input:placeholder,.finaxis-career-form-input textarea:placeholder{
+	color: #9694A7;
+}
+.creer-mb-27{
+	margin-bottom:27px;
+}
+.creer-mb-32{
+	margin-bottom:32px;
+}
+/*end*/
+/*News 1*/
+.cust-z-index{
+	z-index:1;
+}
+.finaxis-news-sect {
+    margin-top: 90px;
+    position: relative;
+	    padding-bottom: 120px;
+}
+.news-head-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+.news-head-right h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #4DB2DE;
+    margin-bottom: 15px;
+}
+.news-head-txt1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 50px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.news-head-txt2 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #fff;
+	margin-bottom: 11px;
+}
+.news-head-linkBtn {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-decoration-line: underline;
+    color: #E70808;
+}
+.news-head-linkBtn:hover{
+	opacity:0.9;
+	color: #E70808;
+}
+.news-posts-block ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.news-posts-block ul li{
+    width: 32.4%;
+	margin-bottom:24px;
+}
+.news-posts-block {
+    margin-top: 80px;
+	/* padding-bottom:120px; */
+}
+.news-block-panel {
+    background: rgba(46, 36, 82, 0.4);
+    border-radius: 8px;
+	    display: flex;
+    flex-direction: column;
+}
+.news-content-block {
+    padding: 10px 40px 40px;
+}
+.news-content-block h3{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #4DB2DE;
+	margin-bottom:7px;
+}
+.news-content-txt1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 37px;
+    color: #fff;
+    margin-bottom: 17px;
+}
+.news-content-txt2 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.news-block-panel-img {
+    max-height: 320px;
+    height: 100%;
+    display: flex;
+	overflow:hidden;
+}
+.news-block-panel-img img{
+	width:100%;
+}
+/*news 2*/
+.finaxis-news-detail-hd{
+	margin-bottom:40px;
+}
+.finaxis-news-detail-hd p {
+    margin-bottom: 40px;
+}
+.finaxis-news-detail-hd p a{
+	font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #E70808;
+    margin-bottom: 40px;
+	text-decoration:none;
+}
+
+
+.finaxis-news-detail-txt h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #4DB2DE;
+    margin-bottom: 15px;
+}
+.finaxis-news-detail-txt {
+    margin-bottom: 50px;
+}
+.finaxis-news-detail-txt1{
+	    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    color: #fff;
+}
+.finaxis-news-detail-txt3 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 34px;
+    color: #fff;
+    /* margin-bottom: 11px; */
+}
+.finaxis-news-detail-txt2 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 50px;
+    margin-bottom: 24px;
+    color: #fff;
+}
+/*responsive*/
+@media only screen and (max-width: 1540px) {
+	
+	.finaxis-header-lft h2{
+		font-size: 66px;
+    line-height: 88px;
+	}
+	.finaxis-header-innerbody{
+		    margin: 0px 156px;
+	}
+	.finaxis-banner-main{
+		    background-size: 100% 94%;
+    height: 911px;
+
+	}
+	.finaxis-header-lft p {
+		    font-size: 34px;
+    line-height: 48px;
+			
+		}
+		.finaxis-header-innerbody-bttm{
+			    bottom: 29%;
+		}
+		.finaxis-header-next {
+			margin-top: -202px;
+		}
+		.finaxis-ourapproch-sect {
+			margin-top: -192px;
+		}
+		.tech-lft-img{
+			    top: -115px;
+		}
+		.finaxistablinks {
+			width: 350px;
+			font-size: 36px;
+		}
+		.finaxis-tabcontent-lft h3{
+			font-size: 98px;
+		}
+		.finaxis-technology-sect{
+			    padding-bottom: 160px;
+		}
+		.finaxis-product-left-inner h3{
+			font-size:34px;
+		}
+		.finaxis-product-left-inner p{
+			font-size: 20px;
+		}
+		.finaxis-product-list-right{
+			    font-size: 12px;
+				line-height: 20px;
+		}
+		.finaxis-product-block ul li{
+			    min-height: 120px;
+		}
+		.finaxis-product-right {
+			display: flex;
+			align-items: center;
+			height: 100%;
+			    margin-left: 4%;
+		}
+		.finaxis-product-sect {
+		padding: 110px 0px;
+		}
+		.finaxis-bottm-lft-img {
+    max-width: 100px;
+    bottom: 20px;
+    left: 30px;
+}
+.finaxis-purple-bg .finaxis-product-right{
+	    margin-left: 0;
+    margin-right: 4%;
+    padding-bottom: 20px;
+}
+.finaxis-product-list-block{
+	padding: 24px 20px 24px 26px;
+}		
+.finaxis-valuedPartner-block h2{
+	font-size: 125px;
+}
+/*contact us*/
+.finaxis-contact-droplist,.finaxis-form-input input,.finaxis-form-input textarea{
+	font-size: 17px;
+}
+.finaxis-contact-block-right{
+	margin-left: 5%;
+}
+/*career*/
+.finaxis-career-head h2,.finaxis-career-joinUs h2{
+	font-size:68px;
+}
+.finaxis-joinUs-block p{
+	font-size:20px;
+}
+.finaxis-career-popular-job-block h3,.finaxis-joinUs-block h3{
+	font-size:34px;
+}
+/*career 3*/
+.finaxis-career-hd2 h2{
+	font-size:62px;
+}
+.finaxis-career-hd2 p{
+	font-size:40px;
+}
+/*news 1*/
+.news-head-lft {
+    margin-right: 3%;
+}
+.news-head-txt1{
+	font-size:26px;
+	line-height: 44px;
+}
+.news-head-txt2{
+	    font-size: 15px;
+}
+.news-content-txt1{
+	    font-size: 22px;
+    line-height: 34px;
+}
+.news-content-txt2,.news-head-linkBtn{
+	font-size:15px;
+}
+
+.finaxis-news-detail-txt2{
+	font-size: 26px;
+    line-height: 42px;
+}
+.finaxis-news-detail-txt3,.finaxis-news-detail-txt1{
+	    font-size: 15px;
+    line-height: 28px;
+}
+}
+@media only screen and (max-width: 1480px) {
+	.finaxis-header-next {
+    margin-top: -240px;
+}
+.finaxis-ourapproch-right {
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.finaxis-tabcontent-lft {
+    max-width: 510px;
+}
+.finaxis-tabcontent-lft h3 {
+    font-size: 86px;
+    line-height: 126px;
+}
+.finaxis-tabcontent-right ul li {
+    width: 17%;
+}
+.finaxis-testProg-lft h2{
+	font-size: 62px;
+}
+.finaxis-testProg-lft p{
+	font-size:28px;
+}
+.finaxis-valuedPartner-block h2{
+	    font-size: 113px;
+    line-height: 100px;
+}
+.finaxis-valuedPartner-block p{
+	    font-size: 40px;
+    line-height: 56px;
+    text-align: center;
+	    max-width: 868px;
+}
+.finaxis-valuedPartner-sect{
+	padding-bottom:200px;
+}
+.finaxis-ourapproch-sect {
+    margin-top: -146px;
+}
+.finaxis-product-list-block {
+    padding: 20px;
+}
+/*news 1*/
+.news-head-txt1 {
+    font-size: 24px;
+    line-height: 38px;
+}
+.news-head-right h2{
+	margin-bottom:10px;
+}
+.news-content-txt2, .news-head-linkBtn {
+    font-size: 14px;
+}
+.news-content-txt1 {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.finaxis-news-detail-txt3, .finaxis-news-detail-txt1 {
+    font-size: 14px;
+    line-height: 27px;
+}
+}
+@media only screen and (max-width: 1380px) {
+	.finaxis-header-lft h2 {
+    font-size: 60px;
+	}
+	.finaxis-header-lft p {
+    font-size: 32px;
+	}
+	.finaxis-header-innerbody-bttm {
+    bottom: 26%;
+}
+.finaxis-tabcontent-right ul li {
+    width: 14%;
+    margin: 10px;
+}
+.finaxis-tabcontent-lft h3 {
+    font-size: 78px;
+}
+.finaxis-product-left-inner h3 {
+    font-size: 32px;
+}
+.finaxis-product-left-inner p {
+    font-size: 18px;
+}
+.finaxis-ourapproch-lft h3{
+	    font-size: 62px;
+}
+/*news1*/
+.news-head-txt1 {
+    font-size: 22px;
+    line-height: 34px;
+}
+.finaxis-news-detail-txt3, .finaxis-news-detail-txt1 {
+    font-size: 13px;
+    line-height: 25px;
+}
+.finaxis-news-detail-txt2 {
+    font-size: 24px;
+}
+}
+@media only screen and (max-width: 1280px) {
+	.finaxis-header-lft h2 {
+    font-size: 52px;
+	}
+	.finaxis-header-lft p {
+    font-size: 28px;
+	}
+	.finaxis-header-next {
+    margin-top: -296px;
+}
+.finaxis-header-innerbody-block1 h4{
+	font-size: 48px;
+}
+.finaxis-header-innerbody-block1{
+	    max-width: 626px;
+}
+.finaxis-header-innerbody-bttm {
+    bottom: 20%;
+}
+.finaxis-ourapproch-sect {
+    margin-top: -80px;
+}
+.finaxis-ourapproch-lft h3 {
+    font-size: 56px;
+}
+.finaxis-ourapproch-lft ul li h4{
+	font-size:32px;
+}
+.finaxis-ourapproch-lft ul li p{
+	font-size:20px;
+}
+.finaxistablinks {
+    width: 310px;
+    height: 100px;
+    font-size: 32px;
+}
+.finaxis-tab-sect{
+	margin-bottom:100px;
+}
+.finaxis-tabcontent-lft h3 {
+    font-size: 68px;
+}
+.finaxis-tabcontent-lft {
+    max-width: 445px;
+}
+.finaxis-technology-sect {
+    padding-bottom: 100px;
+}
+.finaxis-product-left-inner h3 {
+    font-size: 28px;
+}
+.finaxis-product-left-inner p {
+    font-size: 16px;
+    line-height: 28px;
+}
+.finaxis-product-list-lft {
+    width: 30px;
+    height: 30px;
+}
+.finaxis-product-list-right{
+	width:70%;
+}
+.finaxis-testProg-lft h2 {
+    font-size: 56px;
+}
+.finaxis-testProg-lft p {
+    font-size: 24px;
+}
+.finaxis-testProg-sect {
+    padding: 30px 0px;
+}
+.finaxis-valuedPartner-block h2 {
+    font-size: 94px;
+    line-height: 82px;
+}
+.finaxis-valuedPartner-block p{
+	    font-size: 36px;
+		max-width: 760px;
+}
+.finaxis-submit-bttn{
+	    max-width: 173px;
+}
+/*contact*/
+.finaxis-contact-droplist, .finaxis-form-input input, .finaxis-form-input textarea {
+    font-size: 13px;
+    text-indent: 13px;
+}
+.finaxis-form-input textarea{
+	padding-left:0px;
+}
+.finaxis-input-label{
+	    font-size: 16px;
+}
+/*career*/
+.finaxis-career-head h2, .finaxis-career-joinUs h2 {
+    font-size: 58px;
+}
+.finaxis-career-head p,.finaxis-joinUs-block p{
+	font-size: 18px;
+}
+.finaxis-career-popular-job-block h3, .finaxis-joinUs-block h3 {
+    font-size: 28px;
+}
+.finaxis-item-head{
+	font-size:20px;
+}
+/*career 3*/
+.finaxis-career-hd2 h2 {
+    font-size: 48px;
+    line-height: 68px;
+}
+.finaxis-career-hd2 p{
+	font-size:34px;
+}
+.finaxis-career-hd-txt h3{
+	font-size:30px;
+}
+.finaxis-career-hd-txt p{
+	font-size:20px;
+}
+.finaxis-career-mid-content h3{
+	font-size:22px;
+}
+/*news 1*/
+.news-head-txt1 {
+    font-size: 20px;
+    line-height: 30px;
+}
+.news-head-txt2 {
+    font-size: 13px;
+}
+.news-head-right h2 {
+    margin-bottom: 0px;
+}
+.news-content-txt1 {
+    font-size: 16px;
+    line-height: 28px;
+	    margin-bottom: 15px;
+}
+.news-content-txt2, .news-head-linkBtn {
+    font-size: 13px;
+}
+.news-content-txt2{
+	margin-bottom:15px;
+}
+.news-head-lft {
+    margin-right: 1%;
+}
+.finaxis-news-detail-txt2 {
+    font-size: 22px;
+}
+.finaxis-news-detail-txt2 {
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 15px;
+}
+.finaxis-news-detail-txt3, .finaxis-news-detail-txt1 {
+    font-size: 12px;
+    line-height: 22px;
+}
+}
+@media only screen and (max-width: 1024px) {
+	.finaxis-header-lft h2 {
+    font-size: 42px;
+    line-height: 70px;
+}
+.finaxis-header-lft p {
+    font-size: 22px;
+}
+.finaxis-header-body{
+	    margin-top: 52px;
+}
+.finaxis-banner-main {
+    background-size: 100% 80%;
+    height: 828px;
+}
+.finaxis-header-innerbody-block1 h4 {
+    font-size: 42px;
+    line-height: 70px;
+}
+.finaxis-header-innerbody-bttm {
+    bottom: 9%;
+}
+.finaxis-ourapproch-sect {
+    margin-top: 0;
+}
+.finaxis-ourapproch-lft h3 {
+    font-size: 52px;
+    margin-bottom: 30px;
+}
+.finaxis-product-left-inner h3 {
+    font-size: 24px;
+    line-height: 32px;
+}
+/*contact*/
+.finaxis-contact-block-right {
+    margin-left: 0;
+}
+.finaxis-contact-block-lft {
+    margin-top: 40px;
+}
+.finaxis-contact-img-block img{
+	width:100%;
+}
+/*career*/
+.finaxis-collapse-body ul li{
+	font-size:16px;
+}
+.finaxis-career-head h2, .finaxis-career-joinUs h2 {
+    font-size: 52px;
+	line-height: 54px;
+}
+.finaxis-career-gal-double,.ml-24{
+	margin-left:15px;
+}
+.mb-24{
+	margin-bottom:15px;
+}
+.finaxis-career-popular-job-block h3{
+	margin-bottom:60px;
+}
+.finaxis-career-joinUs h2{
+	margin-bottom:40px;
+}
+/*career 3*/
+.finaxis-career-hd2 p {
+    font-size: 30px;
+}
+.finaxis-career-hd2 h2 {
+    font-size: 42px;
+    line-height: 62px;
+}
+/*career 4*/
+.finaxis-career-hd3 h2{
+	font-size:42px;
+}
+.finaxis-career2-form-block {
+
+    padding: 48px;
+}
+.finaxis-career-hd3 p{
+	font-size:24px;
+}
+.news-head-right h2{
+	font-size: 14px;
+    line-height: 14px;
+	margin-bottom: 10px;
+}
+.news-head-txt1 {
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+.news-head-txt2 {
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.news-posts-block {
+    margin-top: 60px;
+   /*  padding-bottom: 80px; */
+}
+.news-content-block {
+    padding: 10px 20px 30px;
+}
+.news-content-txt1 {
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+.news-content-txt2 {
+    margin-bottom: 10px;
+    font-size: 12px;
+    line-height: 22px;
+}
+}
+@media only screen and (max-width: 991px) {
+	.finaxis-header-body {
+    flex-direction: column;
+}
+.finaxis-header-lft {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.finaxis-header-right {
+    width: 100%;
+    margin-top: 40px;
+}
+.finaxis-header-next {
+    margin-top: 0;
+}
+.finaxis-header-innerbody {
+    margin: 0px 76px;
+}
+.finaxis-header-next {
+    margin-top: 220px;
+}
+.finaxis-top-right-img {
+    max-width: 61px;
+}
+.finaxis-header-innerbody-block1 p{
+	font-size:15px;
+}
+.finaxis-header-innerbody-block1 {
+    max-width: 504px;
+}
+.finaxis-ourapproch-right {
+    margin-left: 0;
+    margin-top: 40px;
+    text-align: center;
+    justify-content: center;
+}
+.tech-lft-img {
+    max-width: 100px;
+}
+.finaxis-tabcontent-lft {
+    max-width: 100%;
+}
+.finaxis-tabcontent-lft h3 {
+    font-size: 38px;
+}
+.finaxis-purple-bg .finaxis-product-right,.finaxis-product-right {
+    margin-left: 0px;
+	margin-right:0px;
+}
+.finaxis-product-block,.finaxis-product-left-inner {
+    max-width: 100%;
+}
+.finaxis-product-sect {
+    padding: 80px 0px;
+}
+.finaxis-bottm-lft-img {
+    max-width: 65px;
+}
+.finaxis-testProg-lft {
+    text-align: center;
+}
+.finaxis-testProg-sect{
+	padding:80px 0px;
+}
+.finaxis-cmpnyLogo-block ul li {
+    margin: 0px 10px;
+}
+.finaxis-valuedPartner-block h2 {
+    font-size: 60px;
+    line-height: 64px;
+	    margin-bottom: 60px;
+}
+.finaxis-valuedPartner-block p {
+    font-size: 30px;
+    max-width: 713px;
+}
+.finaxis-form-inputgroup{
+	justify-content: center;
+}
+.finaxis-valuedPartner-sect {
+    padding-bottom: 100px;
+}
+.finaxis-footer-block {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.finaxis-footer-block-lft {
+    margin-bottom: 30px;
+}
+.finaxis-social-block {
+    display: flex;
+    justify-content: center;
+}
+/*career 4*/
+.finaxis-career-hd3 h2 {
+    font-size: 30px;
+    line-height: 48px;
+}
+.finaxis-career2-form-block {
+    padding: 40px;
+}
+.finaxis-career-hd3 p {
+    font-size: 20px;
+}
+.finaxis-career-input-label{
+	font-size: 20px;
+    line-height: 28px;
+}
+/*news 1*/
+.news-head-right {
+    margin-top: 20px;
+}
+.news-posts-block ul li {
+    width: 48.4%;
+}
+}
+
+@media only screen and (max-width: 767px) {
+.finaxis-header-lft {
+    padding: 20px;
+}
+.finaxis-header-lft h2 {
+    font-size: 26px;
+    line-height: 46px;
+}
+.finaxis-header-lft p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.finexplore-btn{
+	width: 198px;
+    height: 54px;
+	font-size: 16px;
+}
+.finaxis-social-link-block {
+    left: 20px;
+	    top: 14.5%;
+}
+
+.finaxis-header-innerbody-block1 h4 {
+    font-size: 22px;
+    line-height: 38px;
+}
+.finaxis-header-innerbody {
+    margin: 0px 20px;
+}
+.finaxis-top-right-img{
+	top:0;
+}
+.finaxis-header-innerbody-block1 p {
+    font-size: 13px;
+}
+.finaxis-ourapproch-lft h3 {
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+.finaxis-ourapproch-sect {
+    margin-top: 80px;
+}
+
+.finaxis-ourapproch-lft ul li h4 {
+    font-size: 28px;
+}
+.finaxis-ourapproch-lft {
+    text-align: center;
+}
+.finaxis-ourapproch-lft ul li h4:after{
+	    margin: auto;
+    right: 0;
+}
+.finaxistablinks {
+    width: 130px;
+    height: 60px;
+    font-size: 18px;
+}
+.finaxis-tab-sect {
+    margin-bottom: 40px;
+}
+.finaxis-tabcontent-lft h3 {
+    font-size: 32px;
+    text-align: center;
+    line-height: 48px;
+}
+.finaxis-tabcontent-right ul li {
+    width: 15%;
+}
+.finaxis-product-left-inner {
+    text-align: center;
+}
+.finaxis-product-block ul li{
+	width:100%;
+}
+.finaxis-testProg-sect {
+    padding: 60px 0px;
+}
+.finaxis-testProg-lft h2 {
+    font-size: 32px;
+}
+.finaxis-testProg-lft p {
+    font-size: 20px;
+    line-height: 34px;
+}
+.finaxis-form-inputgroup {
+    flex-direction: column;
+}
+.finaxis-form-inputgroup{
+	    height: auto;
+}
+.finaxis-submit-bttn,.finaxis-form-inputgroup input {
+    max-width: 100%;
+    height: 48px;
+    margin-top: 20px;
+}
+.finaxis-valuedPartner-block h2 {
+    font-size: 30px;
+    line-height: 29px;
+    margin-bottom: 30px;
+}
+.finaxis-valuedPartner-block p {
+    font-size: 22px;
+    max-width: 713px;
+    line-height: 36px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.finaxis-valuedPartner-block .finaxis-testProg-form{
+    margin: auto 20px;
+}
+.finaxis-cmpnyLogo-block {
+    padding: 48px 0px;
+}
+.finaxis-footer-block-lft ul li a{
+	font-size:20px;
+}
+.finaxis-social-block li {
+    margin-left: 0;
+    margin: 10px;
+}
+.finaxis-cookie-privacy-block ul li {
+    margin-left: 0;
+    margin: 0px;
+}
+.finaxis-cookie-privacy-block ul{
+	flex-direction:column;
+	align-items:center;
+}
+.finaxis-purple-bg .finaxis-product-right {
+    margin-left: 0;
+    margin-right: 0;
+}
+.finaxis-product-list-right {
+    width: 80%;
+}
+.finaxis-product-block {
+    max-width: 100%;
+}
+.finaxis-ourapproch-lft ul {
+    max-width: 100%;
+}
+/*contact*/
+.finaxis-contact-sect {
+    margin-top: 66px;
+}
+.finaxis-contact-block-right h3{
+	font-size: 32px;
+}
+.finaxis-contact-block-right p{
+	font-size:20px;
+}
+.finaxis-form-input input,.finaxis-contact-droplist{
+	text-indent:16px;
+	height: 48px;
+}
+.finaxis-form-input textarea{
+	padding:20px 16px;
+}
+
+.finaxiscontact-dropdown-content ul li {
+    padding: 10px 16px;
+}
+/*career*/
+.finaxis-career-gallry{
+	flex-direction:column;
+}
+.ml-24{
+	margin-left:0px;
+}
+.finaxis-career-gallry-right {
+    margin-top: 15px;
+}
+.finaxis-career-head h2, .finaxis-career-joinUs h2 {
+    font-size: 46px;
+    line-height: 48px;
+	text-align:center;
+}
+
+.finaxis-career-gallry{
+	margin-bottom:60px;
+}
+.finaxis-item-head.collapsed,.finaxis-item-head{
+	padding:20px;
+}
+.finaxis-item-head.collapsed:after,.finaxis-item-head:after{
+	font-size: 22px;
+	right:18px;
+}
+.finaxis-item-head {
+    font-size: 16px;
+}
+.finaxis-collapse-block {
+    padding: 0px 20px;
+}
+.finaxis-collapse-body ul li {
+    font-size: 12px;
+}.finaxis-collapse-body ul li {
+    font-size: 12px;
+}
+.finaxis-career-joinUs {
+    margin-top: 60px;
+	padding-bottom:40px;
+}
+.finaxis-joinUs-block {
+    text-align: center;
+}
+.finaxis-joinUs-block h3:after{
+	left:0;
+	right:0;
+	margin:auto;
+}
+/*career 3*/
+.finaxis-career-hd2 h2 {
+    font-size: 30px;
+    line-height: 38px;
+}
+.finaxis-career-hd2 p {
+    font-size: 22px;
+    line-height: 28px;
+}
+.finaxis-career-hd2 {
+    margin-bottom: 40px;
+}
+.finaxis-career-hd-txt h3 {
+    font-size: 26px;
+	    margin-bottom: 20px;
+}
+.finaxis-career-hd-txt p {
+    font-size: 16px;
+    line-height: 28px;
+}
+.finaxis-career-mid-content h3 {
+    font-size: 20px;
+}
+.finaxis-career-mid-content ul li{
+	font-size:16px;
+}
+.finaxis-career-mid-content ul {
+    margin-bottom:40px;
+}
+/*career 4*/
+.finaxis-career-hd3 h2 {
+    font-size: 30px;
+    line-height: 38px;
+}
+.finaxis-career-hd3 p {
+    font-size: 22px;
+    line-height: 28px;
+}
+
+.finaxis-career-form-input {
+    flex-direction: column;
+    align-items: flex-start;
+}
+.finaxis-career-input-label {
+    margin-bottom: 20px;
+}
+.finaxis-career-input-field{
+	width:100%;
+}
+.finaxis-career2-form-block {
+    padding: 40px 20px;
+}
+.finaxis-career-input-field input{
+	height:48px;
+	font-size:13px;
+}
+.finaxis-career-form-input textarea{
+	font-size:13px;
+}
+/*news 1*/
+.news-posts-block ul li {
+    width: 100%;
+}
+.news-block-panel-img {
+    max-height: 100%;
+}
+}
+@media only screen and (max-width: 480px) {
+	.finaxis-header-next {
+    margin-top: -28px;
+}
+.finaxis-header-innerbody-bttm {
+    bottom: -36px;
+    position: relative;
+}
+/*career*/
+.finaxis-item-head {
+    flex-direction: column;
+}
+.finaxis-career-head h2, .finaxis-career-joinUs h2 {
+    font-size: 34px;
+    line-height: 40px;
+}
+.finaxis-career-popular-job-block h3, .finaxis-joinUs-block h3 {
+    font-size: 22px;
+}
+.finaxis-collapse-body ul li .finaxis-collapse-lft {
+    margin-right: 0px;
+    width: 70%;
+}
+.finaxis-collapse-right{
+	width:23%;
+}
+.finaxis-career-head p, .finaxis-joinUs-block p {
+    font-size: 16px;
+    line-height: 28px;
+}
+/*career 3*/
+
+.finaxis-career-hd2 h2 {
+    font-size: 36px;
+    line-height: 44px;
+}
+.finaxis-career-hd2 p {
+    font-size: 20px;
+    line-height: 28px;
+}
+/*career 4*/
+.finaxis-career-hd3 h2 {
+    font-size: 36px;
+    line-height: 44px;
+}
+.finaxis-career-hd3 p {
+    font-size: 20px;
+    line-height: 28px;
+}
+.finaxis-career2-form-block h3{
+	    font-size: 16px;
+    line-height: 20px;
+}
+.finaxis-career-input-field .uploadbtn{
+	font-size: 15px;
+	padding: 0px 20px;
+	    width: 100%;
+}
+.finaxis-career-input-label {
+    width: 100%;
+}
+.finaxis-caree-apply-btn{
+	width: 100%;
+	font-size: 16px;
+	    padding: 10px 30px;
+}
+/*news 1*/
+.news-head-right,.news-content-block{
+	text-align:center;
+}
+.finaxis-news-detail-txt {
+    text-align: center;
+}
+.finaxis-news-detail-txt2 {
+    font-size: 16px;
+}
+.finaxis-news-detail-txt3, .finaxis-news-detail-txt1 {
+    font-size: 13px;
+
+}
+.finaxis-news-detail-hd p a{
+	font-size:14px;
+}
+}
+@media only screen and (max-width: 320px) {
+	.finaxis-header-lft h2 {
+    font-size: 22px;
+    line-height: 36px;
+}
+.finaxis-header-lft p {
+    line-height: 24px;
+}
+.finaxis-banner-main {
+    background-size: 100% 80%;
+    height: 775px;
+}
+.finaxis-top-right-img {
+    top: -23px;
+}
+.finaxis-header-innerbody-bttm {
+    bottom: -105px;
+}
+.finaxis-ourapproch-sect {
+    margin-top: 126px;
+}
+.finaxis-tabcontent-right ul li span a{
+	font-size:16px;
+}
+/*career 3*/
+.finaxis-career-hd2 h2 {
+    font-size: 30px;
+}
+/*career 4*/
+.finaxis-career-hd3 h2 {
+    font-size: 30px;
+}
+}

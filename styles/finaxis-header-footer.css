@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@font-face {
+  font-family: AvantGarde;
+  src: url(/fonts/avantgarde-bk-bt/AVGARDD_2.ttf);
+}
+@font-face {
+  font-family: AvantGarde-regular;
+  src: url(/fonts/avantgarde-bk-bt/AVGARDN_2.ttf);
+}
+/*General css*/
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+  margin-bottom: 0;
+}
+.
+a:hover {
+  text-decoration: none;
+  color: unset;
+  opacity: 1;
+}
+
+body {
+  font-family: inherit;
+}
+ul {
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+
+.ml-32{
+	margin-left:32px;
+}
+
+/*File Name : index.html*/
+header {
+  width: 100%;
+}
+.finaxis-blue-bg{
+	width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+	background: linear-gradient(180deg, #070332 0%, #050038 100%);
+	min-height:600px;
+}
+.finaxis-container {
+  max-width: 1920px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 146px;
+  height: 100%;
+  position: relative;
+}
+.finaxis-banner-main{
+	background-image: url(/images/Pattren3.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 966px;
+	    /* z-index: 9; */
+}
+
+
+/*menu*/
+.finaxis-menu-block {
+    display: flex;
+    justify-content: space-between;
+	align-items:center;
+}
+.finaxis-logo {
+    margin-top: 80px;
+	display: flex;
+    align-items: flex-end;
+}
+.finaxis-logo span{
+	font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FDE38E;
+    margin-left: 9px;
+}
+.finaxis-navbar{
+        position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(rgb(7, 3, 50) 0%, rgb(5, 0, 56) 100%);
+	padding: 11px 47px; 
+	    z-index: 9;
+}
+.navbar-collapse.in{
+	display:block;
+}
+.finaxis-menu-block .navbar-header {
+    /* border: 1px solid #E70808;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 9px 7px; */
+	position: absolute;
+    right: 32px;
+    top: 32px;
+	z-index: 9;
+	display: flex;
+}
+.finaxis-menu-block .navbar-header span{
+	margin-right:20px;
+}
+.finaxis-menu-block .navbar-collapse {
+    
+	background-image: url(/images/FinLogo.png);
+	background-position:bottom;
+	background-repeat:no-repeat;
+    z-index: 9;
+	padding:100px 100px 50px;
+	background-size: 100%;    
+}
+.finaxis-menu-block .navbar-nav li{
+	position:relative;
+	margin-bottom: 24px;
+	display: flex;
+    align-items: center;
+}
+.finaxis-menu-block .navbar-nav li a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 81px;
+    line-height: 121px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+	text-decoration:none;
+	font-family: Poppins;
+	padding: 0;
+
+}
+.nav-item-active{
+	color: #FFFFFF;
+
+opacity: 0.5;
+}
+.finaxis-menu-block .submenu li{
+	margin-bottom:18px;
+}
+/* .finaxis-menu-block .navbar-nav li a:hover{
+	color: #E70808;
+} */
+.navbar-btn-block {
+    width: 100%;
+}
+.navbar-btn-block .navbar-toggle {
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.finaxis-menu-block .navbar-toggle .toggle-bttn1{
+	display:none;
+}
+.finaxis-menu-block .navbar-toggle.collapsed .toggle-bttn2{
+	display:none;
+}
+.finaxis-menu-block .navbar-toggle.collapsed .toggle-bttn1{
+	display:block;
+}
+
+.finaxis-menu-block .submenu li a{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 96px;
+    color: #FFFFFF;
+}
+.finaxis-menu-block .submenu li a:hover{
+	background:none;
+}
+.finaxis-menu-block .dropdown-toggle.open .dropdown-menu {
+    position: absolute;
+    display: block;
+    top: -105px;
+    left: 45%;
+}
+.finaxis-menu-block .navbar-nav .dropdown-toggle.open a.nav-link{
+	color: #E70808;
+}
+/* .finaxis-menu-block .navbar-nav .dropdown-toggle a.nav-link:hover + .dropdown-menu{
+	position: absolute;
+    display: block;
+    top: -90px;
+    left: 45%;
+} */
+.finaxis-menu-block .dropdown-menu {
+    background: transparent;
+}
+.finaxis-menu-block .dropdown-toggle::after{
+	border:0px;
+}
+.comming-cls{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 36px;
+	color: #F8D370;
+	opacity: 0.6;
+	margin-left:40px;
+}
+/*menu end*/
+/*footer*/
+.finaxis-footer-block {
+    display: flex;
+    justify-content: space-between;
+	align-items: center;
+	    padding: 29px 0px;
+}
+.finaxis-footer-block-lft {
+    max-width: 458px;
+    width: 100%;
+}
+
+.finaxis-footer-block-lft ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.finaxis-footer-block-lft ul li a{
+	font-family: AvantGarde;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 29px;
+	color: #384E63;
+	text-decoration:none;
+}
+.finaxis-social-block {
+    display: flex;
+    justify-content: flex-end;	    
+}
+.finaxis-social-block li{
+	margin-left:25px;
+}
+.finaxis-cookie-privacy-block ul{
+    display: flex;
+}
+.finaxis-cookie-privacy-block ul li{
+	margin-left:15px;
+}
+.finaxis-cookie-privacy-block ul li a{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 140.8%;
+	letter-spacing: 0.03em;
+	color: #434343;
+	opacity: 0.8;
+	text-decoration:none;
+}
+.finaxis-cookie-privacy-block {
+    margin-top: 16px;
+}
+/*end*/
+
+.finaxis-social-link-block{
+	position: absolute;
+    top: 23.5%;
+    left: 60px;
+	    /* z-index: 9; */
+}
+.finaxis-social-link-block ul li{
+	margin-bottom:26px;
+	    display: flex;
+    align-items: center;
+    justify-content: center;
+	height: 24px;
+}
+.fin-ico2{
+	display:none;
+}
+.finaxis-social-link-block ul li a:hover .fin-ico2{
+	display:block;
+	margin-top:3px;
+}
+.finaxis-social-link-block ul li a:hover .fin-ico1{
+	display:none;
+}
+.finaxis-home-logo{
+	    margin-right: 0px;
+    margin-top: -7px;
+}
+/*responsive*/
+@media only screen and (max-width: 1540px) {
+	.finaxis-container{
+		    padding: 0px 80px;
+	}
+	.finaxis-menu-block .navbar-nav li a{
+		font-size: 76px;
+    line-height: 90px;
+	}
+	.finaxis-menu-block .submenu li a{
+		font-size: 58px;
+    line-height: 84px;
+	}
+	.finaxis-social-link-block{
+			    left: 30px;
+		}
+		.finaxis-menu-block .navbar-collapse{
+			padding: 100px 60px 50px;
+		}
+		/*home bttn*/
+		.finaxis-home-logo{
+	    margin-right: 60px;
+		}
+}
+@media only screen and (max-width: 1480px) {
+.finaxis-menu-block .navbar-nav li a {
+    font-size: 62px;
+    line-height: 80px;
+}
+.finaxis-menu-block .submenu li a {
+    font-size: 54px;
+    line-height: 90px;
+}
+
+}
+@media only screen and (max-width: 1380px) {
+
+}
+@media only screen and (max-width: 1280px) {
+.finaxis-menu-block .dropdown-toggle.open .dropdown-menu{
+	    top: -116px;
+    left: 52%;
+}
+}
+@media only screen and (max-width: 1024px) {
+.finaxis-container {
+    padding: 0px 60px;
+}
+.finaxis-home-logo {
+    margin-right: 80px;
+}
+}
+@media only screen and (max-width: 991px) {
+.finaxis-menu-block .navbar-collapse{
+	    padding: 60px 10px 0px;
+}
+.finaxis-menu-block .navbar-nav li a {
+    font-size: 48px;
+    line-height: 76px;
+}
+.finaxis-menu-block .dropdown-toggle.open .dropdown-menu{
+	    left: 65%;
+}
+
+}
+@media only screen and (max-width: 767px) {
+.finaxis-container {
+    padding: 0px 40px;
+}
+.finaxis-logo {
+    margin-top: 40px;
+    max-width: 130px;
+}
+.finaxis-navbar{
+	padding: 11px 20px;
+}
+.finaxis-menu-block .navbar-nav li a {
+    font-size: 20px;
+    line-height: 34px;
+}
+.comming-cls{
+	font-size: 18px;
+}
+.finaxis-menu-block .navbar-nav li{
+	/* flex-direction:column; */
+	    align-items: flex-start;
+		    width: max-content;
+}
+.finaxis-menu-block .dropdown-toggle.open .dropdown-menu {
+    left: 0;
+    position: relative;
+    top: -10px;
+}
+	.ml-32 {
+    margin-left: 13px;
+    width: 20px;
+}
+.finaxis-menu-block .dropdown-toggle .dropdown-menu {
+    margin-left: 30px;
+}
+.navbar-btn-block .navbar-toggle .toggle-bttn2{
+	max-width:32px;
+}
+
+.finaxis-home-logo {
+    margin-right: 90px;
+    margin-top: 33px;
+}
+.finaxis-logo span {
+        font-size: 10px;
+    line-height: 17px;
+}
+}
+@media only screen and (max-width: 480px) {
+		.finaxis-container {
+    padding: 0px 20px;
+}
+
+.finaxis-menu-block .navbar-collapse{
+	height:100vh;
+}
+.finaxis-menu-block .navbar-nav li a {
+    font-size: 18px;
+    line-height: 34px;
+}
+.finaxis-menu-block .navbar-nav li{
+	margin-bottom:15px;
+}
+.navbar-btn-block .navbar-toggle{
+	max-width: 60px;
+}
+.finaxis-menu-block .navbar-header span {
+    max-width: 30px;
+    margin-right: 10px;
+}
+.finaxis-menu-block .navbar-header{
+	right:15px;
+}
+.navbar-btn-block .navbar-toggle .toggle-bttn2 {
+    max-width: 23px;
+}
+.finaxis-home-logo {
+    margin-right: 60px;
+    margin-top: 29px;
+    max-width: 29px;
+}
+.finaxis-footer-block-lft ul li a {
+    font-size: 18px;
+}
+}

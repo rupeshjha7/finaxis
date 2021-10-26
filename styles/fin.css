@@ -1,0 +1,18 @@
+.finaxiscontact-dropdown-content {
+  margin-top: 24px;
+  position: absolute;
+
+  width: 100%;
+}
+.contact-inner {
+  height: 70px;
+}
+.finaxiscontact-dropdown-content ul li {
+  padding: 10px 26px;
+}
+.error-msg {
+  color: red;
+}
+.cursor {
+  cursor: pointer;
+}
